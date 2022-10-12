@@ -2,14 +2,15 @@
 "this function returns a list of all the indes in the string that have capital letters"
 
 def capital_indexes(word): 
-    'create an empty list'
+    #'create an empty list'
     char_list = []
-    'loop into the string input and enumerate it'
+    #'loop into the string input and enumerate it'
+    #'enumerate = get the index position of a string '
     for index, char in enumerate(word):
-        'use the string methond to check if the string input is a uppercase'
+        #'use the string methond to check if the string input is a uppercase'
         if char.isupper():
 
-            ' append the string input'
+            #' append the string input'
             char_list.append(index)
     return char_list
 print(capital_indexes("HeLlo"))
