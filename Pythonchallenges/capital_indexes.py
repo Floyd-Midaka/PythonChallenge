@@ -13,4 +13,4 @@ def capital_indexes(word):
             #' append the string input'
             char_list.append(index)
     return char_list
-print(capital_indexes("HeLlo"))
+print(capital_indexes("HeLJaaaEEElo"))
