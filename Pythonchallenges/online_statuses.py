@@ -1,6 +1,10 @@
 '''' online_count that takes one parameter. The parameter is a dictionary that maps from strings of names to the string "online" or "offline", as seen above.
 
-Your function should return the number of people who are online'''
+Your function should return the number of people who are online
+
+
+
+'''
 
 def online_count(dictionary):
     count = 0
